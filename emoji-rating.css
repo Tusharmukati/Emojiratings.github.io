@@ -1,0 +1,91 @@
+#emojies{
+  
+    width: 50px;
+    height: 50px;
+position: absolute;
+ left: 50%;
+ transform: translate(-50%);
+ top: 20px;
+ display: flex;
+ overflow: hidden;
+}
+#ratings{
+ 
+    width: 250px;
+    height: 70px;
+    left: 50%;
+ transform: translate(-50%);
+ bottom: 20%;
+    position: absolute;
+}
+#main-container{
+    width: 320px;
+    height: 30vh;
+    background-color: white;
+    box-shadow: 0px 4px 8px  black;
+    border-radius: 20px;
+    position: relative;
+
+}
+*{
+    margin: 0;padding: 0;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color:yellow;
+}
+.star{
+    margin-left: 5px;
+    cursor:pointer;
+    color: grey;
+}
+.emj{
+    margin: 2px;
+}
+
+.activated{
+    color: gold;
+}
+.trs1{
+    transform: translate(-50px);
+    transition: transform 0.2s;
+}
+.trs2{
+    transform: translate(-100px);
+    transition: transform 0.2s;
+}
+.trs3{
+    transform: translate(-150px);
+    transition: transform 0.2s;
+}
+.trs4{
+    transform: translate(-200px);
+    transition: transform 0.2s;
+}
+.trs5{
+    transform: translate(-250px);
+    transition: transform 0.2s;
+}
+.trs6{
+    transform: translate(+50px);
+    transition: transform 0.2s;
+}
+.trs7{
+    transform: translate(+100px);
+    transition: transform 0.2s;
+}
+.trs8{
+    transform: translate(+150px);
+    transition: transform 0.2s;
+}
+.trs9{
+    transform: translate(100px);
+    transition: transform 0.2s;
+}
+.trs10{
+    transform: translate(50px);
+    transition: transform 0.2s;
+}
